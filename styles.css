@@ -1,0 +1,139 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  line-height: 1.6;
+  color: #333;
+}
+
+header {
+  background: #374451;
+  color: white;
+  padding: 1rem;
+  text-align: center;
+  position: fixed;
+  width: 100%;
+  top: 0;
+  z-index: 1000;
+}
+
+nav ul {
+  list-style: none;
+  padding: 0;
+}
+
+nav ul li {
+  display: inline;
+  margin: 0 1rem;
+}
+
+nav ul li a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+nav ul li a:hover {
+  color: #3498db;
+}
+
+#hero {
+  background-image: url('src/images/Background.jpg');
+  background-size: cover; 
+  background-position: center; 
+  background-repeat: no-repeat; 
+  height: 100vh; 
+  width: 100%; 
+  min-width: 100vw; 
+  margin: 0; 
+  padding: 0; 
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  position: relative; 
+  top: 0; 
+}
+
+#hero h1 {
+  font-size: 3rem;
+  color: white;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+  margin: 0;
+  z-index: 10; 
+}
+
+section {
+  padding: 2rem;
+  margin: 0 auto;
+}
+
+.about-main {
+  display: flex;
+  padding-top: 130px;
+}
+
+.personal-photo {
+  padding-left: 50px;
+  padding-right: 100px;
+  width: 280px;
+  height: 360px;
+}
+
+ .about {
+  max-width: 500px;
+ }
+
+#skills-list {
+  list-style: none;
+  padding: 0;
+}
+
+#skills-list li {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  background: #3498db;
+  color: white;
+  padding: 0.5rem 1rem;
+  margin: 0.5rem;
+  border-radius: 5px;
+}
+
+footer {
+  color: white;
+  text-align: center;
+  padding: 1rem;
+  margin-top: 100px;
+  display: flex;
+  justify-content: center;
+  position: relative;
+  bottom: 0;
+  width: 100%;
+  color: #333;
+  position: fixed;
+  bottom: 0;
+  
+}
+
+.contact-icons {
+  display: flex;
+  padding: 20px;
+}
+
+.github {
+  padding-left: 50px;
+  padding-right: 50px;
+}
+
+@media (max-width: 600px) {
+  nav ul li {
+    display: block;
+    margin: 0.5rem 0;
+  }
+
+  #hero h1 {
+    font-size: 2rem;
+  }
+}
