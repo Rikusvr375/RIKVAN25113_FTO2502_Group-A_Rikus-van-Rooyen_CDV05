@@ -8,7 +8,7 @@ This is a personal resume website showcasing my web development journey and proj
 
 ## Deployed Live Website
 
-- Live Demo Link [Rikus-vr Resume](rikusvr-resume-website.vercel.app)
+- Live Demo Link [Rikus-vr Resume](https://rikusvr-resume-website.vercel.app/index.html)
 
 ## Features
 
