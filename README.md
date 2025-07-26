@@ -36,4 +36,4 @@ This is a personal resume website showcasing my web development journey and proj
 
 1. Clone the repository:
    ```bash
-   git clone <repository-url>
+   git clone https://github.com/Rikusvr375/RIKVAN25113_FTO2502_Group-A_Rikus-van-Rooyen_CDV05.git
