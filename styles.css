@@ -216,6 +216,15 @@ footer {
   padding-right: 50px;
 }
 
+#contact {
+  margin-top: 50px;
+}
+
+#contact-info {
+  display: flex;
+  justify-content: center;
+}
+
 @media (max-width: 600px) {
   nav ul li {
     display: block;
